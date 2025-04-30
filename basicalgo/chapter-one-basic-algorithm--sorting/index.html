@@ -107,7 +107,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "378"
+    "wordCount": "379"
   }]
   </script>
 
@@ -131,6 +131,139 @@
   
 
 <script src="/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj&#43;KsslFkCOt3TvJrX2AV/Gc3wOqA=="></script>
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/lib/katex/katex.min.8fee1bb91734542a6701c61b7be516ff2eb2df248bf4e4591aacc8f4e9df40c7ca9e9c0b3f657b166f5f13e69a8fb50a139b3babcef20aeeea18f0fbcd4169fb.css" integrity="sha512-j&#43;4buRc0VCpnAcYbe&#43;UW/y6y3ySL9ORZGqzI9OnfQMfKnpwLP2V7Fm9fE&#43;aaj7UKE5s7q87yCu7qGPD7zUFp&#43;w==" />
+
+
+<script defer src="/lib/katex/katex.min.8c68eaeb75cfdcfac071717a969e1b9d9230ad52c6a2ac21ff846eaf6a258364cbb79e5e3552e32c280faeb4f4eda4d7c5bd1492e30a961c737e1e5305300281.js" integrity="sha512-jGjq63XP3PrAcXF6lp4bnZIwrVLGoqwh/4Rur2olg2TLt55eNVLjLCgPrrT07aTXxb0UkuMKlhxzfh5TBTACgQ=="></script>
+
+
+<script defer src="/lib/katex/auto-render.min.e9b2833d28623d18c071d78ef13e9c79d695122d296af3dbcee7bf1bf6518b0565bab59939267fbc8f5faf696193c20f5caef3e7501969cfb306f6738032730d.js" integrity="sha512-6bKDPShiPRjAcdeO8T6cedaVEi0pavPbzue/G/ZRiwVlurWZOSZ/vI9fr2lhk8IPXK7z51AZac&#43;zBvZzgDJzDQ=="
+  onload="renderMathInElement(document.body);"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -588,7 +721,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2025-04-30T19:34:45&#43;08:00">30 April 2025</time><span class="px-2 text-primary-500">&middot;</span><span>378 words</span>
+  <time datetime="2025-04-30T19:34:45&#43;08:00">30 April 2025</time><span class="px-2 text-primary-500">&middot;</span><span>379 words</span>
   
 
   
@@ -890,8 +1023,10 @@
     
 </h2>
 <blockquote>
-<p>以下所有排序默认采用从升序，也就是$a_{n-1}&lt;a_{n}$</p></blockquote>
+<p>以下所有排序默认采用从升序，也就是 \(a_{n-1}&lt;a_{n}\)</p></blockquote>
 <hr>
+
+
 
 
 <h3 class="relative group">1.1 Selection Sort 
@@ -1011,7 +1146,7 @@ $$
 <p>优点：直观、不易写错，具有稳定性</p>
 </li>
 <li>
-<p>缺点：时间复杂度高，极端情况下仍然有与选择排序一样的复杂度$o(n^2)$。在实际工程实践中也是基本不用。</p>
+<p>缺点：时间复杂度高，极端情况下仍然有与选择排序一样的复杂度\(o(n^2)\)。在实际工程实践中也是基本不用。</p>
 </li>
 </ul>
 
@@ -1039,7 +1174,7 @@ $$
 \longrightarrow {\color{Purple} 3}||{\color {Green}5}||{\color{Red} 19}||2||6||8||8 \
 \longrightarrow {\color{Purple} 3}||{\color {Purple}5}||{\color{Purple} 19}||2||6||8||8 \
 $$
-我们注意到$3&lt;5$，因此此时前面三项$3||5||19$一定是有序的。</p>
+我们注意到\(3&lt;5\)，因此此时前面三项\(3||5||19\)一定是有序的。</p>
 <p>这实际上减少了很大一部分平均时间开销，因为我们确定前面所有n-1项在进行第n项排序的时候就已经是有序的。我们在将第n-1项移动的时候在移动到一个小于其项的后面的位置就可以直接进行下一组判定。</p>
 <p>基于上述思想，我们完成相应的C++代码：</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;vector&gt;</span><span class="cp">
