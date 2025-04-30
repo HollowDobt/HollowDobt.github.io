@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Series on Hollow&#39;s Sky City</title>
-    <link>https://hollowdobt.github.io/series/</link>
-    <description>Recent content in Series on Hollow&#39;s Sky City</description>
+    <title>BasicAlgoes on Hollow&#39;s Sky City</title>
+    <link>https://hollowdobt.github.io/basicalgo/</link>
+    <description>Recent content in BasicAlgoes on Hollow&#39;s Sky City</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>hollowdobt@gmail.com (Hollow Dobt)</managingEditor>
     <webMaster>hollowdobt@gmail.com (Hollow Dobt)</webMaster>
     <copyright>Copyright  2024-2025 Hollow Dobt, Licensed under CC BY-SA 4.0</copyright>
-    <lastBuildDate>Wed, 30 Apr 2025 19:34:45 +0800</lastBuildDate><atom:link href="https://hollowdobt.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Apr 2025 19:34:45 +0800</lastBuildDate><atom:link href="https://hollowdobt.github.io/basicalgo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Basic Algorithm</title>
-      <link>https://hollowdobt.github.io/series/basic-algorithm/</link>
+      <title>Chapter One Basic Algorithm  Sorting</title>
+      <link>https://hollowdobt.github.io/basicalgo/chapter-one-basic-algorithm--sorting/</link>
       <pubDate>Wed, 30 Apr 2025 19:34:45 +0800</pubDate>
       <author>hollowdobt@gmail.com (Hollow Dobt)</author>
-      <guid>https://hollowdobt.github.io/series/basic-algorithm/</guid>
+      <guid>https://hollowdobt.github.io/basicalgo/chapter-one-basic-algorithm--sorting/</guid>
       <description></description>
       
     </item>
