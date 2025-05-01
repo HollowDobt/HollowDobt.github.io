@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Hollow&#39;s Sky City</title>
-    <link>https://hollowdobt.github.io/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Hollow&#39;s Sky City</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>hollowdobt@gmail.com (Hollow Dobt)</managingEditor>
     <webMaster>hollowdobt@gmail.com (Hollow Dobt)</webMaster>
     <copyright>Copyright  2024-2025 Hollow Dobt, Licensed under CC BY-SA 4.0</copyright>
-    <atom:link href="https://hollowdobt.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
